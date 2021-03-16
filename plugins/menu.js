@@ -74,7 +74,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
 ╭════•›「 ${conn.getName(conn.user.jid)} 」
-╿  Hai, %name !
+╿  Hai, %name ! I'M ${conn.getName(conn.user.jid}
 ╿ Total : *%exp XP*
 ╿ Tersisa : *%limit Limit*
 ╿
@@ -83,13 +83,6 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╿ Waktu : *%time*
 ╿ Lama Aktif : *%uptime*
 ╿ Database : %totalreg Nomor
-╰═══════════════
-
-╭════•›「 Sosmed 」
-╿ Github :
-╿ https://github.com/Arya274/Arya-BOT3
-╿ Youtube : Drawl Nag
-╿ Instagram : @arpunchs
 ╰═══════════════
 
 ╭════•›「 Rules 」
