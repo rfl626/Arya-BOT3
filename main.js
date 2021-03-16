@@ -229,6 +229,10 @@ conn.handler = async function (m) {
   			break
   		}
   	}
+if (chatt.includes("assalamualaikum"))
+					{ salam = `Waalaikumsalam kak, aku yuki bot, gunakan ${prefix}menu ya kak ^^`
+					reply(salam)
+					}
   } finally {
     //console.log(global.DATABASE._data.users[m.sender])
     let user, stats = global.DATABASE._data.stats
