@@ -269,7 +269,7 @@ conn.handler = async function (m) {
     }
   }
 }
-conn.welcome = 'Hai, @user!\nSelamat datang di grup @subject\n\nJika sudah jangan lupa donasi ya kak'
+conn.welcome = 'Hai, @user!\nSelamat datang di grup @subject'
 conn.bye = 'Selamat tinggal @user!'
 conn.onAdd = async function ({ m, participants }) {
   let chat = global.DATABASE._data.chats[m.key.remoteJid]
